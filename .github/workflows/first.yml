@@ -8,3 +8,7 @@ jobs:
         run: echo "Hello World"
       - name: Print Goodbye
         run: echo "GoodBye"
+  second-job:
+    runs-on: ubuntu-latest
+      -name: Print date
+        run: date
