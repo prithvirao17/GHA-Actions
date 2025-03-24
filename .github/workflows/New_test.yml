@@ -3,7 +3,7 @@ on: workflow_dispatch
 
 jobs:
   print_hostname:
-    runs-on: ip-10-0-1-172
+    runs-on: ubuntu-latest
     steps:
       - name: Print the hostname
         run: hostname -f
