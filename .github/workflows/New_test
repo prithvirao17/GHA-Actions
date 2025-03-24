@@ -1,4 +1,4 @@
-name: New test
+name: New_test
 on: workflow_dispatch
 
 jobs:
