@@ -5,5 +5,5 @@ jobs:
   print_hostname:
     runs-on: ip-10-0-1-172
     steps:
-      -name: Print the hostname
-       run: hostname -f
+      - name: Print the hostname
+        run: hostname -f
